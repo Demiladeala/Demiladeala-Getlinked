@@ -71,23 +71,28 @@ const Faq = () => {
             </div>
           </div>
           {/* FAQ IMAGE SECTION */}
-          <div className='mt-20'>
-            <div className='border w-full'>
-
+          <div className='relative mt-20 w-[90%] mx-auto'>
+            <div className='absolute w-full'>
+              <Image src={qm1} alt='question' className='absolute left-[16%] top-[-0.3rem] max-[350px]:top-[-0.5rem]'></Image>
+              <Image src={qm2} alt='question' className='absolute top-[-1.6rem] left-[33%]'></Image>
+              <Image src={star1} alt='star Image' width={10} height={10} className='absolute top-[-0.3rem] left-[46%]'></Image>
+              <Image src={qm3} alt='question' className='absolute right-[35%] top-[-0.3rem] max-[350px]:top-[-0.5rem]'></Image>
             </div>
-            <div className='border w-full'>
-    
+            <div className='absolute w-full top-[30%]'>
+            <Image src={star2} alt='star Image' width={7} height={9} className='absolute left-[20%]'></Image>
             </div>
-            <div className='border w-full'>
-    
+            <div className='absolute w-full top-[50%]'>
+            <Image src={star3} alt='star Image' width={7} height={9} className='w-auto h-auto absolute  left-[10%]'></Image>
             </div>
             <Image src={faqImage} alt='FAQ'></Image>
-            <div className='border w-full'>
-    
+            <div className='absolute w-full bottom-[2%]'>
+            <Image src={star4} width={16} alt='star Image' height={20} className='absolute  right-[20%]'></Image>
             </div>
           </div>
           {/* END FAQ SECTION */}
       </div>
+
+      <div className='h-[0.1px] w-full bg-[rgba(255,255,255,0.18)] mt-14'></div>
     </div>
   )
 }

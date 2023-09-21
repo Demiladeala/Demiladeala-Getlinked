@@ -14,13 +14,13 @@ const Criteria = () => {
         {/* IMAGE SECTION */}
         <div>
           <div className='flex justify-center'>
-            <Image src={star1} alt='star' className='w-[13px] h-[17px] relative right-2'></Image>
+            <Image src={star1} width={13} height={17} alt='star' className='w-[13px] h-[17px] relative right-2'></Image>
           </div>
 
           <div className='z-10 relative mt-12'>
             <Image src={criteriaImage} width={900} height={600} alt='criteria' className='z-10 relative object-cover bg-center bg-no-repeat w-full'></Image>
             <Image src={flare} alt='flare' className='absolute z-0 top-[1rem] opacity-80' style={{ filter: 'hue-rotate(-19.6deg)' }}></Image>
-            <Image src={star2} alt='flare' className='absolute z-0 bottom-[40%] left-[53%]'></Image>
+            <Image src={star2} width={12} height={14} alt='flare' className='absolute z-0 bottom-[40%] left-[53%]'></Image>
           </div>
         </div>
 
@@ -67,7 +67,7 @@ const Criteria = () => {
             competition-specific requirements.
           </div>
           <Image src={flare2} alt='flare' className='absolute z-0 bottom-[-9%] right-[-20%] opacity-70' style={{ filter: 'hue-rotate(-19.6deg)' }}></Image>
-          <Image src={star3} alt='star' className='absolute z-2 right-[8%] mt-7'></Image>
+          <Image src={star3} width={10} height={12} alt='star' className='absolute z-2 right-[8%] mt-7'></Image>
         
           <div className='flex justify-center items-center mt-6'>
             <button className='relative register-button text-xs max-[320px]:px-5 max-[320px]:py-2 px-5 py-2 hover:opacity-90'>

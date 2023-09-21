@@ -43,6 +43,9 @@
   border-radius: 4px;
   background: linear-gradient(270deg, #903AFF 0%, #D434FE 56.42%, #FF26B9 99.99%, #FE34B9 100%);
 }
+.timeline-circle{
+  background: linear-gradient(270deg, #903AFF 0%, #D434FE 100%);
+}
 .hero-flare{
   background-blend-mode: hard-light;
 }

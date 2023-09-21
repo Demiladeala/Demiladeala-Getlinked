@@ -13,17 +13,17 @@ const Introduction = () => {
                 
                 <div className='relative w-full'>
                   <div className='w-[80%] mx-auto'>
-                    <Image alt='bulb' src={ideaImage} className=''></Image>
+                    <Image alt='bulb' src={ideaImage} className='mx-auto'></Image>
                   </div>
-                  <Image alt='star' src={introductionStar1} className='absolute left-[1rem] bottom-[59%]'></Image>
+                  <Image alt='star' src={introductionStar1} width={11} height={13} className='absolute left-[10%] bottom-[59%]'></Image>
                   <p className='absolute bottom-[35%] font-semibold text-sm text-center w-full flex justify-center items-center'>The Big <br />Idea!</p>
-                  <Image alt='arrow' src={introductionArrow} className='absolute bottom-[-2rem] left-[45%]'></Image>
+                  <Image alt='arrow' src={introductionArrow} width={19.456} height={22.818} className='absolute bottom-[-2rem] left-[46%]'></Image>
                 </div>
 
                 <div className='relative mt-16 w-[80%] mx-auto text-center'>
                     <div className='clash-display-bold lh-26 text-[20px] max-[321px]:text-[16px] font-semibold tracking-wide'>Introduction to getlinked</div>
                     <div className='text-[#D434FE] clash-display-bold lh-26 text-[20px] max-[321px]:text-[16px] font-semibold tracking-wide'>tech Hackathon 1.0</div>
-                    <Image alt='star' src={introductionStar2} className='absolute right-[-0.25rem] top-[50%]'></Image>
+                    <Image alt='star' width={8} height={10} src={introductionStar2} className='absolute right-[-0.25rem] top-[50%]'></Image>
                 </div>
             </div>
 

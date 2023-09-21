@@ -13,8 +13,8 @@ const Rules = () => {
         <div className='relative flex flex-col md:flex-row-reverse'>
             <div className='relative w-[90%] mx-auto'>
                 <div className='relative mt-16'>
-                  <Image src={rulesImage} width={9000} alt='image' className='z-10 relative w-full left-[1rem] bg-center'></Image>
-                  <Image src={star1} alt='flare' className='absolute z-[2] top-[45%]' ></Image>
+                  <Image src={rulesImage} width={9000} height={382} alt='image' className='z-10 relative w-full left-[1rem] bg-center'></Image>
+                  <Image src={star1} alt='flare' width={10} height={12} className='absolute z-[2] top-[45%]' ></Image>
                 </div>
                 <Image src={flare1} alt='flare' className='z-0 brightness-[0.8] absolute top-[-2.5rem] left-[-3rem] blur-[4px] object-cover bg-center bg-no-repeat w-full' 
                 style={{ filter: 'hue-rotate(-18.6deg)' }}></Image>
@@ -32,7 +32,7 @@ const Rules = () => {
                 </div>
                 <h1 className='relative text-center clash-display-bold text-xl tracking-wide'>
                 Rules and <br /><span className='text-[#D434FE] clash-display-bold text-xl'> Guidelines</span>
-                <Image src={star2} alt='flare' className='absolute z-[2] bottom-[-0.4rem] right-[-0.8rem]' ></Image>
+                <Image src={star2} alt='flare' width={12} height={14} className='absolute z-[2] bottom-[-0.4rem] right-[-0.8rem]' ></Image>
                 </h1>
 
                 <div className='relative z-10 text-sm text-center font-medium lh-26 mt-5'>
@@ -46,9 +46,12 @@ const Rules = () => {
                 technology, and creating solutions that can 
                 change the world, that's what we're all about!
                 </div>
+                <div className='absolute bottom-[-1rem] w-full mt-4'>
+                  <Image src={star3} alt='small star' width={10} height={12} className='absolute left-[22%]'></Image>
+                </div>
             </div>
 
-            <div className='h-[0.1px] w-full bg-[rgba(255,255,255,0.18)] mt-10'></div>
+            <div className='h-[0.1px] w-full bg-[rgba(255,255,255,0.18)] mt-12'></div>
         </div>
     </div>
   )
