@@ -11,11 +11,13 @@ const Introduction = () => {
         <div className='flex flex-col'>
             <div className='flex flex-col justify-center items-center'>
                 
-                <div className='relative'>
-                <Image alt='bulb' src={ideaImage} className='object-cover bg-center bg-no-repeat'></Image>
-                <Image alt='star' src={introductionStar1} className='absolute left-[-1rem] bottom-[59%]'></Image>
-                <p className='absolute left-[37%] bottom-[35%] font-semibold'>The Big <br />&nbsp;&nbsp;&nbsp;Idea!</p>
-                <Image alt='arrow' src={introductionArrow} className='absolute left-[44%]'></Image>
+                <div className='relative w-full'>
+                  <div className='flex justify-center items-center'>
+                    <Image alt='bulb' src={ideaImage} className='object-cover bg-center bg-no-repeat'></Image>
+                  </div>
+                  <Image alt='star' src={introductionStar1} className='absolute left-[-1rem] bottom-[59%]'></Image>
+                  <p className='absolute left-[41%] max-[320px]:left-[38%] bottom-[35%] font-semibold'>The Big <br />&nbsp;&nbsp;&nbsp;Idea!</p>
+                  <Image alt='arrow' src={introductionArrow} className='absolute bottom-[-2rem] left-[45%]'></Image>
                 </div>
 
                 <div className='relative mt-12 w-[80%] mx-auto text-center'>
