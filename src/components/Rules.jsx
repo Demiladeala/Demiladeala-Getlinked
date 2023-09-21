@@ -11,9 +11,9 @@ const Rules = () => {
   return (
     <div className=''>
         <div className='relative flex flex-col md:flex-row-reverse'>
-            <div className='relative w-[80%] mx-auto'>
-                <div className='relative'>
-                  <Image src={rulesImage} alt='image' className='z-10 relative w-full object-cover bg-center bg-no-repeat'></Image>
+            <div className='relative w-[90%] mx-auto'>
+                <div className='relative mt-16'>
+                  <Image src={rulesImage} width={9000} alt='image' className='z-10 relative w-full left-[1rem] bg-center'></Image>
                   <Image src={star1} alt='flare' className='absolute z-[2] top-[45%]' ></Image>
                 </div>
                 <Image src={flare1} alt='flare' className='z-0 brightness-[0.8] absolute top-[-2.5rem] left-[-3rem] blur-[4px] object-cover bg-center bg-no-repeat w-full' 
@@ -32,7 +32,7 @@ const Rules = () => {
                 </div>
                 <h1 className='relative text-center clash-display-bold text-xl tracking-wide'>
                 Rules and <br /><span className='text-[#D434FE] clash-display-bold text-xl'> Guidelines</span>
-                <Image src={star2} alt='flare' className='absolute z-[2] bottom-[-0.4rem] right-0' ></Image>
+                <Image src={star2} alt='flare' className='absolute z-[2] bottom-[-0.4rem] right-[-0.8rem]' ></Image>
                 </h1>
 
                 <div className='relative z-10 text-sm text-center font-medium lh-26 mt-5'>

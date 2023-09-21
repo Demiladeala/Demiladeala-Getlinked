@@ -40,7 +40,7 @@ const Hero = () => {
 
                             <div className='inline-block clash-display-bold relative'>&nbsp;Tech
                             <Image src={bulb} alt='bulb' className='absolute top-[-0.7rem] max-[280px]:top-[-1.2rem] left-[60%] object-cover bg-no-repeat bg-center'></Image>
-                            <Image src={star2} alt='star' className='w-[6px] h-[6px] absolute top-[-1.8rem] max-[280px]:top-[-2.0rem] right-[-0.9rem] object-cover bg-no-repeat bg-center'></Image>
+                            <Image src={star2} alt='star'  className='absolute top-[-1.8rem] max-[280px]:top-[-2.0rem] right-[-0.9rem] object-cover bg-no-repeat bg-center'></Image>
                             </div>
                         </div>
                         <div className='flex items-center justify-center font-bold text-[32px] max-[280px]:text-2xl'>
@@ -57,7 +57,7 @@ const Hero = () => {
 
                      <div className='flex justify-center items-center mt-6'>
                         <button className='relative register-button max-[320px]:px-9 max-[320px]:py-3 px-12 py-[0.9rem] hover:opacity-90'><p className='text-base'>Register</p>
-                        <Image src={star3} alt='star' className='w-[6px] h-[6px] absolute top-[50%] right-[-1.7rem] max-[320px]:right-[1.2rem] object-cover bg-no-repeat bg-center'></Image>
+                        <Image src={star3} alt='star' className='absolute top-[50%] right-[-1.7rem] max-[320px]:right-[1.2rem] object-cover bg-no-repeat bg-center'></Image>
                         </button>
                      </div>
 
@@ -75,7 +75,7 @@ const Hero = () => {
 
             {/* MOBILE HERO IMAGE SECTION */}
             <div className='mt-4 md:basis-[47%]'>
-                <Image src={heroImage} alt='Hackathon Guy'></Image>
+                <Image src={heroImage} alt='Hackathon Guy' width={2000} className=''></Image>
             </div>
         </div>
     </div>

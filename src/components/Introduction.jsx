@@ -8,19 +8,19 @@ import introductionStar2 from '../../public/introduction-star2.png'
 const Introduction = () => {
   return (
     <div className='mt-9'>
-        <div className='flex flex-col'>
+        <div className='flex flex-col md:flex-row'>
             <div className='flex flex-col justify-center items-center'>
                 
                 <div className='relative w-full'>
-                  <div className='flex justify-center items-center'>
-                    <Image alt='bulb' src={ideaImage} className='object-cover bg-center bg-no-repeat'></Image>
+                  <div className='w-[80%] mx-auto'>
+                    <Image alt='bulb' src={ideaImage} className=''></Image>
                   </div>
-                  <Image alt='star' src={introductionStar1} className='absolute left-[-1rem] bottom-[59%]'></Image>
-                  <p className='absolute left-[41%] max-[320px]:left-[38%] bottom-[35%] font-semibold'>The Big <br />&nbsp;&nbsp;&nbsp;Idea!</p>
+                  <Image alt='star' src={introductionStar1} className='absolute left-[1rem] bottom-[59%]'></Image>
+                  <p className='absolute bottom-[35%] font-semibold text-sm text-center w-full flex justify-center items-center'>The Big <br />Idea!</p>
                   <Image alt='arrow' src={introductionArrow} className='absolute bottom-[-2rem] left-[45%]'></Image>
                 </div>
 
-                <div className='relative mt-12 w-[80%] mx-auto text-center'>
+                <div className='relative mt-16 w-[80%] mx-auto text-center'>
                     <div className='clash-display-bold lh-26 text-[20px] max-[321px]:text-[16px] font-semibold tracking-wide'>Introduction to getlinked</div>
                     <div className='text-[#D434FE] clash-display-bold lh-26 text-[20px] max-[321px]:text-[16px] font-semibold tracking-wide'>tech Hackathon 1.0</div>
                     <Image alt='star' src={introductionStar2} className='absolute right-[-0.25rem] top-[50%]'></Image>
