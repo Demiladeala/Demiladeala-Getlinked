@@ -14,7 +14,7 @@ import Faq from "@/components/Faq";
 
 export default function Home() {
   return (
-    <div className="bg-custom-bg text-white">
+    <div className="bg-custom-bg text-white overflow-x-hidden">
       <section>
         <Header />
       </section>

@@ -18,7 +18,7 @@ const Criteria = () => {
           </div>
 
           <div className='z-10 relative mt-12 flex justify-center items-center'>
-            <Image src={criteriaImage} alt='criteria' className='z-10 relative object-cover bg-center bg-no-repeat'></Image>
+            <Image src={criteriaImage} alt='criteria' className='z-10 relative object-cover bg-center bg-no-repeat w-full'></Image>
             <Image src={flare} alt='flare' className='absolute z-0 top-[1rem] opacity-80' style={{ filter: 'hue-rotate(-19.6deg)' }}></Image>
             <Image src={star2} alt='flare' className='absolute z-0 left-[53%]'></Image>
           </div>

@@ -16,7 +16,7 @@ const Rules = () => {
                   <Image src={rulesImage} alt='image' className='z-10 relative'></Image>
                   <Image src={star1} alt='flare' className='absolute z-[2] top-[45%]' ></Image>
                 </div>
-                <Image src={flare1} alt='flare' className='z-0 brightness-[0.8] absolute top-[-2.5rem] left-[-3rem] blur-[4px]' 
+                <Image src={flare1} alt='flare' className='z-0 brightness-[0.8] absolute top-[-2.5rem] left-[-3rem] blur-[4px] object-cover bg-center bg-no-repeat w-full' 
                 style={{ filter: 'hue-rotate(-18.6deg)' }}></Image>
             </div>
 
