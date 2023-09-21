@@ -1,27 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Unica+One&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@font-face {
+  font-family: 'Clash Display-Regular';
+  src: url('/ClashDisplay-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+@font-face {
+  font-family: 'Clash Display';
+  src: url('/ClashDisplay-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
 }
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+*{
+  scroll-behavior: smooth;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-tap-highlight-color: transparent; /* For iOS */
+  -webkit-tap-highlight-color: rgba(0,0,0,0); /* For Android */
+  tap-highlight-color: transparent; 
+}
+.clash-display-bold{
+  font-family: 'Clash Display', sans-serif;
+}
+.clash-display{
+  font-family: 'Clash Display-Regular', sans-serif;
+}
+.Unica{
+  font-family: 'Unica One', cursive;
+}
+.line-height{
+  line-height: 21.58px;
+}
+.lh-63{
+  line-height: 63.84px;
+}
+.lh-26{
+  line-height: 26.6px;
+}
+.register-button{
+  border-radius: 4px;
+  background: linear-gradient(270deg, #903AFF 0%, #D434FE 56.42%, #FF26B9 99.99%, #FE34B9 100%);
+}
+.hero-flare{
+  background-blend-mode: hard-light;
 }
