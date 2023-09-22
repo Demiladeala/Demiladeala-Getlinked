@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import listMark from '../../public/policy-list-mark.png'
+import listMark from '../../public/policy-list-mark.svg'
 import policyImage from '../../public/policy-image.png'
 import star1 from '../../public/policy-star1.png'
 import star2 from '../../public/policy-star2.png'
@@ -48,7 +48,7 @@ const Policy = () => {
             <div className='flex flex-col gap-8 mt-8'>
 
               <div className='flex flex-row gap-3'>
-                <div className='w-[25%] h-full'><Image width={50} src={listMark} alt='list' className='w-full object-contain p-1 relative z-10'></Image></div>
+                <div className='w-[25%] h-full'><Image src={listMark} alt='list' className='w-full h-full object-cover p-1 relative z-10'></Image></div>
                 <div>
                   <p className='relative z-10  text-sm font-medium'>
                   The Standard License grants you a 
@@ -59,7 +59,7 @@ const Policy = () => {
               </div>
 
               <div className='flex flex-row gap-3'>
-                <div className='w-[25%] h-full'><Image width={50} src={listMark} alt='list' className='w-full object-contain p-1 relative z-10'></Image></div>
+                <div className='w-[25%] h-full'><Image src={listMark} alt='list' className='w-full h-full object-cover p-1 relative z-10'></Image></div>
                 <div>
                   <p className='relative z-10 text-sm font-medium'>
                   You are licensed to use the item 

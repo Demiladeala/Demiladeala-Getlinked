@@ -50,9 +50,10 @@ const Header = () => {
       </motion.div>
       )}
       </AnimatePresence>
-      <div className='fixed w-full top-0 z-30 bg-custom-bg'>
+
+      <div className='fixed w-full top-0 z-30 bg-custom-bg border'>
           <div className='flex justify-between items-center max-[280px]:px-8 px-12 pt-9'>
-              <Image src={mobileLogo} alt='mobile-logo' className='w-20'></Image>
+              <Image src={mobileLogo} alt='mobile-logo' className='w-20 md:w-28'></Image>
               <Image onClick={handleNav} src={menuIcon} alt='mobile-logo' className='md:hidden'></Image>
           </div>
           <div className='h-[0.1px] w-full bg-[rgba(255,255,255,0.18)] mt-6'></div>
