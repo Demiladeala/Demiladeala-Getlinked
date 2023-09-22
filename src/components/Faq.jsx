@@ -16,9 +16,9 @@ const Faq = () => {
       <div className='flex flex-col md:flex-row'>
           {/* FAQ MESSAGE SECTION */}
           <div className='mt-16'>
-            <h1 className='relative text-center clash-display-bold text-xl tracking-wide'>
-            Frequently Ask <br /><span className='text-[#D434FE] clash-display-bold text-xl'> Question</span>
-            <Image src={faqStar} alt='star' className='absolute top-[-1rem] left-[15%]'></Image>
+            <h1 className='relative text-center clash-display-bold text-2xl tracking-wide'>
+            Frequently Asked <br /><span className='text-[#D434FE] clash-display-bold text-2xl'> Question</span>
+            <Image src={faqStar} alt='star' className='absolute top-[-1.2rem] left-[10%]'></Image>
             </h1>
 
             <div className='w-[80%] mx-auto mt-5'>

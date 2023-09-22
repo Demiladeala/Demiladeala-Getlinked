@@ -28,8 +28,8 @@ const Criteria = () => {
 
         {/* TEXT SECTION */}
         <div className='relative z-10 w-[80%] mx-auto'>
-          <h1 className='relative text-center clash-display-bold text-xl tracking-wide'>
-          Judging Criteria <br /><span className='text-[#D434FE] clash-display-bold text-xl'> Key attributes</span>
+          <h1 className='relative text-center clash-display-bold text-2xl tracking-wide'>
+          Judging Criteria <br /><span className='text-[#D434FE] clash-display-bold text-2xl'> Key attributes</span>
           </h1>
 
           <div className='relative z-10 text-sm text-center font-medium lh-26 mt-5'>

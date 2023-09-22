@@ -15,7 +15,7 @@ import star2 from '../../public/faq-image-star2.png'
 const Footer = () => {
   return (
     <div className='bg-[#100B20] mt-28'>
-        <div className='flex flex-col md:flex-row pl-12 py-16'>
+        <div className='flex flex-col md:flex-row pl-12 pt-16 pb-12'>
 
             <div>
             <Image src={mobileLogo} alt='mobile-logo' className='w-28'></Image>
@@ -48,7 +48,7 @@ const Footer = () => {
               <div className='flex gap-3 items-center'>
                 <Image src={instagram} alt='instagram' className='w-4'></Image>
                 <Image src={x} alt='x' className='w-3'></Image>
-                <Image src={facebook} alt='facebook' className='w-2'></Image>
+                <Image src={facebook} alt='facebook' className='w-[7px]'></Image>
                 <Image src={linkedin} alt='linkedin' className='w-4'></Image>
               </div>
               </div>
@@ -58,7 +58,7 @@ const Footer = () => {
 
             <div className='relative flex flex-col gap-5 text-sm font-medium mt-9 pr-8'>
             <Image src={mobileStar2} alt='star' className='absolute top-[40%] right-[25%]'></Image>
-            <Image src={star2} alt='star' className='absolute bottom-[-1.5rem] left-[21%]'></Image>
+            <Image src={star2} alt='star' className='absolute bottom-[-1.5rem] left-[25%]'></Image>
               <h3 className='text-[#D434FE] font-semibold text-[17px]'>Contact Us</h3>
               <div className='flex flex-row items-center gap-4'>
                 <Image src={phone} alt='phone'></Image>

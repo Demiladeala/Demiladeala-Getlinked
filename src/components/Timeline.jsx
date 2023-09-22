@@ -9,7 +9,7 @@ const Timeline = () => {
     <div>
         <div className='mt-20'>
           <div className='font-medium text-center'>
-            <h1 className='clash-display-bold text-[20px] lh-26 tracking-wider'>Timeline</h1>
+            <h1 className='clash-display-bold text-2xl lh-26 tracking-wider'>Timeline</h1>
             <div className='w-[95%] mx-auto text-sm max-[300px]:text-xs mt-3'><p>Here is the breakdown of the time we</p>
               anticipate using for the upcoming event.</div>
           </div>

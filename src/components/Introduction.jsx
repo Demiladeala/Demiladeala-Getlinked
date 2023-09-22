@@ -19,9 +19,9 @@ const Introduction = () => {
                   <Image alt='arrow' src={introductionArrow} width={19.456} height={22.818} className='absolute bottom-[-2rem] left-[46%]'></Image>
                 </div>
 
-                <div className='relative mt-16 w-[80%] mx-auto text-center'>
-                    <div className='clash-display-bold lh-26 text-[20px] max-[321px]:text-[16px] font-semibold tracking-wide'>Introduction to getlinked</div>
-                    <div className='text-[#D434FE] clash-display-bold lh-26 text-[20px] max-[321px]:text-[16px] font-semibold tracking-wide'>tech Hackathon 1.0</div>
+                <div className='relative mt-16 w-[85%] mx-auto text-center'>
+                    <div className='clash-display-bold lh-26 text-xl max-[321px]:text-[17px] font-semibold tracking-wide'>Introduction to getlinked</div>
+                    <div className='text-[#D434FE] clash-display-bold lh-26 text-xl max-[321px]:text-[17px] font-semibold tracking-wide'>tech Hackathon 1.0</div>
                     <Image alt='star' width={8} height={10} src={introductionStar2} className='absolute right-[-0.25rem] top-[50%]'></Image>
                 </div>
             </div>

@@ -11,10 +11,10 @@ const Rules = () => {
   return (
     <div className=''>
         <div className='relative flex flex-col md:flex-row-reverse'>
-            <div className='relative w-[90%] mx-auto'>
-                <div className='relative mt-16'>
-                  <Image src={rulesImage} width={294} height={382} alt='image' className='z-10 relative bg-center w-[85%] mx-auto'></Image>
-                  <Image src={star1} alt='flare' width={10} height={12} className='absolute z-[2] top-[45%]' ></Image>
+            <div className='relative mx-auto'>
+                <div className='relative'>
+                  <Image src={rulesImage} width={2800} height={2800} alt='image' className='z-10 relative object-contain bg-center bg-no-repeat w-[90%] mx-auto'></Image>
+                  <Image src={star1} alt='flare' width={10} height={12} className='absolute z-[2] left-[10%] top-[45%]' ></Image>
                 </div>
                 <Image src={flare1} alt='flare' className='z-0 brightness-[0.8] absolute top-[-2.5rem] left-[-3rem] blur-[4px] object-cover bg-center bg-no-repeat w-full' 
                 style={{ filter: 'hue-rotate(-18.6deg)' }}></Image>
@@ -30,9 +30,9 @@ const Rules = () => {
                 <Image src={flare2} alt='flare' className='z-0 brightness-[0.8] blur-[4px]' 
                 style={{ filter: 'hue-rotate(-18.6deg)' }}></Image>
                 </div>
-                <h1 className='relative text-center clash-display-bold text-xl tracking-wide'>
-                Rules and <br /><span className='text-[#D434FE] clash-display-bold text-xl'> Guidelines</span>
-                <Image src={star2} alt='flare' width={12} height={14} className='absolute z-[2] bottom-[-0.4rem] right-[-0.8rem]' ></Image>
+                <h1 className='relative text-center clash-display-bold text-2xl tracking-wide'>
+                Rules and <br /><span className='text-[#D434FE] clash-display-bold text-2xl'> Guidelines</span>
+                <Image src={star2} alt='flare' width={12} height={14} className='absolute z-[2] bottom-[-0.4rem] right-[0.4rem]' ></Image>
                 </h1>
 
                 <div className='relative z-10 text-sm text-center font-medium lh-26 mt-5'>

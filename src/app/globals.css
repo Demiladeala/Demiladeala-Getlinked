@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Unica+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Unica+One&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -21,6 +21,13 @@
   -webkit-tap-highlight-color: rgba(0,0,0,0); /* For Android */
   tap-highlight-color: transparent; 
 }
+.nav-blur{
+  backdrop-filter: blur(30px);
+  border: 0.5px solid rgba(255, 255, 255, 0.04);
+}
+.close-icon-border{
+
+}
 .clash-display-bold{
   font-family: 'Clash Display', sans-serif;
 }
@@ -29,6 +36,9 @@
 }
 .Unica{
   font-family: 'Unica One', cursive;
+}
+.Inter{
+  font-family: 'Inter', sans-serif;
 }
 .line-height{
   line-height: 21.58px;

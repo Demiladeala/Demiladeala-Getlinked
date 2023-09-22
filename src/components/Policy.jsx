@@ -13,9 +13,9 @@ const Policy = () => {
   return (
     <div>
       <div className='relative'>
-        <h1 className='relative z-10 mt-16 pt-7 text-center clash-display-bold text-xl tracking-wide'>
+        <h1 className='relative z-10 mt-16 pt-7 text-center clash-display-bold text-2xl tracking-wide'>
         <Image src={star1} alt='star' className='absolute top-[-0.01rem] right-[24%]'></Image>
-        Privacy Policy and  <br /><span className='text-[#D434FE] clash-display-bold text-xl'> Terms</span>
+        Privacy Policy and  <br /><span className='text-[#D434FE] clash-display-bold text-2xl'> Terms</span>
         </h1>
         <p className='relative z-10 text-center text-sm text-white text-opacity-75 font-medium mt-2'>Last updated on September 12, 2023</p>
         <p className='relative z-10 w-[85%] mx-auto text-center text-[13px] font-medium mt-8 lh-20'>
@@ -48,7 +48,7 @@ const Policy = () => {
             <div className='flex flex-col gap-8 mt-8'>
 
               <div className='flex flex-row gap-3'>
-                <div><Image width={400} src={listMark} alt='list' className='relative z-10 w-12 mt-1'></Image></div>
+                <div><Image width={1000} src={listMark} alt='list' className='relative z-10 w-12 mt-1'></Image></div>
                 <div>
                   <p className='relative z-10  text-sm font-medium'>
                   The Standard License grants you a 
@@ -59,7 +59,7 @@ const Policy = () => {
               </div>
 
               <div className='flex flex-row gap-3'>
-                <div><Image width={400} src={listMark} alt='list' className='relative z-10 w-12 mt-1'></Image></div>
+                <div><Image width={1000} src={listMark} alt='list' className='relative z-10 w-12 mt-1'></Image></div>
                 <div>
                   <p className='relative z-10 text-sm font-medium'>
                   You are licensed to use the item 

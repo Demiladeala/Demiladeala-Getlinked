@@ -77,7 +77,7 @@ export default function Home() {
       </section>
 
       <button
-          className='hidden fixed bottom-5 right-7 z-[90] border-none outline-none bg-[#D434FE] p-2 cursor-pointer rounded hover:bg-opacity-90'
+          className='hidden fixed bottom-5 right-7 z-30 border-none outline-none bg-[#D434FE] p-2 cursor-pointer rounded hover:bg-opacity-90'
           onClick={handleScrollToTop}
           style={{ display: showButton ? 'block' : 'none' }}
         >

@@ -17,7 +17,7 @@ const Partners = () => {
       <div>
         <div className='relative font-medium text-center mt-10'>
         <Image src={flare} alt='flare' className='absolute z-0 top-[-7rem] left-[-2rem] opacity-90' style={{ filter: 'hue-rotate(-15.6deg)' }}></Image>
-          <h1 className='relative z-10 clash-display-bold text-[20px] lh-26 w-[95%] mx-auto tracking-wider'>Partners and Sponsors</h1>
+          <h1 className='relative z-10 clash-display-bold text-2xl lh-26 w-[95%] mx-auto tracking-wider'>Partners and Sponsors</h1>
           <div className='relative z-10 w-[85%] font-medium mx-auto text-sm max-[300px]:text-xs mt-3'>
           Getlinked Hackathon 1.0 is honored to have the
           following major companies as its partners and 
@@ -59,7 +59,7 @@ const Partners = () => {
         </div>
       </div>
 
-      <div className='h-[0.1px] w-full bg-[rgba(255,255,255,0.18)] mt-20'></div>
+      <div className='h-[0.1px] w-full bg-[rgba(255,255,255,0.18)] mt-28'></div>
     </div>
   )
 }

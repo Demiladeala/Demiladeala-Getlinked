@@ -13,8 +13,8 @@ const Rewards = () => {
     <div className='mt-20 pb-20 bg-[#120C23]'>
       <div className='reward-bg-mobile'>
         <div>
-            <h1 className='z-10 pt-7 relative text-center clash-display-bold text-xl tracking-wide'>
-              Prizes and <br /><span className='text-[#D434FE] clash-display-bold text-xl'> Rewards</span>
+            <h1 className='z-10 pt-7 relative text-center clash-display-bold text-2xl tracking-wide'>
+              Prizes and <br /><span className='text-[#D434FE] clash-display-bold text-2xl'> Rewards</span>
               <Image src={star2} alt='star' className='absolute top-6 left-[15%]'></Image>
               <Image src={star2} alt='star' className='absolute bottom-[20%] right-[27%]'></Image>
               </h1>
