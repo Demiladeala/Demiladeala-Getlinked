@@ -27,8 +27,8 @@ const Partners = () => {
 
         <div className='relative z-10 border border-[#D434FE] mt-16 py-7 px-9 rounded-md w-[85%] mx-auto grid grid-cols-3 grid-rows-2 gap-3 '>
               <Image src={flare2} alt='flare' className='absolute z-0 top-[5.5rem] right-[-20%] opacity-70 blur-[5px]' style={{ filter: 'hue-rotate(-15.6deg)' }}></Image>
-              <Image src={star1} alt='star' className='absolute left-[5%]'></Image>
-              <Image src={mobileStar2} alt='star' className='absolute bottom-[0.2rem] right-[12%]'></Image>
+              <Image src={star1} alt='star' className='absolute left-[5%] object-cover'></Image>
+              <Image src={mobileStar2} alt='star' className='absolute bottom-[0.2rem] right-[12%] object-cover'></Image>
               <div className='relative z-10 w-[100%] h-[45px] flex justify-center items-center'>
                 <div className='h-full w-[2px] bg-[#D434FE] absolute right-0'></div>
                 <div className='h-[2px] w-[90%] bg-[#D434FE] absolute bottom-[-0.2rem] right-2'></div>
@@ -38,7 +38,7 @@ const Partners = () => {
                 <div className='h-full w-[2px] bg-[#D434FE] absolute right-0'></div>
                 <div className='h-[2px] w-[90%] bg-[#D434FE] absolute bottom-[-0.2rem] right-2'></div>
                 <Image src={logo2} alt='logo' width={1000} className='w-[100%] h-full object-contain bg-center bg-no-repeat mx-auto mr-4'></Image>
-                <Image src={star1} alt='star' className='absolute bottom-2 right-[20%]'></Image>
+                <Image src={star1} alt='star' className='absolute bottom-2 right-[20%] object-cover'></Image>
               </div>
               <div className='relative w-[100%] h-[45px]'>
                 <div className='h-[2px] w-[90%] bg-[#D434FE] absolute bottom-[-0.2rem] right-2'></div>

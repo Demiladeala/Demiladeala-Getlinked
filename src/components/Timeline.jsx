@@ -18,7 +18,7 @@ const Timeline = () => {
             <div className='w-[85%] mx-auto mt-10'>
 
               <div className='w-[90%] mx-auto mt-16 flex flex-col h-[7rem] relative'>
-                <Image src={mobileStar1} width={14} height={16} alt='star mobile' className='absolute top-[-2rem] left-[9.4%]'></Image>
+                <Image src={mobileStar1} width={100} height={16} alt='star mobile' className='w-[14px] h-[16px] absolute top-[-2rem] left-[9.4%]'></Image>
                 <div className='flex flex-row h-full'>
                   <div className='h-[89.6px] w-[2px] bg-[#D434FE]'></div>
                   <div className='flex flex-col text-[13px] max-[350px]:text-[11px] max-[280px]:text-[10px]'>
@@ -79,7 +79,7 @@ const Timeline = () => {
               </div>
 
               <div className='w-[90%] mx-auto mt-8 flex flex-col h-[7rem] relative'>
-              <Image src={mobileStar2} width={10} height={12} alt='star mobile' className='absolute top-[-2rem] right-[16%]'></Image>
+              <Image src={mobileStar2} width={100} height={12} alt='star mobile' className='w-[10px] h-[12px] absolute top-[-2rem] right-[16%]'></Image>
                 <div className='flex flex-row h-full'>
                   <div className='h-[89.6px] w-[2px] bg-[#D434FE]'></div>
                   <div className='flex flex-col text-[13px] max-[350px]:text-[11px] max-[280px]:text-[10px]'>
@@ -121,7 +121,7 @@ const Timeline = () => {
               </div>
 
               <div className='w-[90%] mx-auto mt-8 flex flex-col h-[7rem] relative'>
-              <Image src={mobileStar3} width={10} height={12} alt='star mobile' className='absolute left-[-1.5rem] bottom-[-3rem]'></Image>
+              <Image src={mobileStar3} width={100} height={12} alt='star mobile' className='w-[10px] h-[12px] absolute left-[-1.5rem] bottom-[-3rem]'></Image>
                 <div className='flex flex-row h-full'>
                   <div className='h-[89.6px] w-[2px] bg-[#D434FE]'></div>
                   <div className='flex flex-col text-[13px] max-[350px]:text-[11px] max-[280px]:text-[10px]'>

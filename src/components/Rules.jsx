@@ -14,10 +14,10 @@ const Rules = () => {
             <div className='relative mx-auto'>
                 <div className='relative'>
                   <Image src={rulesImage} width={2800} height={2800} alt='image' className='z-10 relative object-contain bg-center bg-no-repeat w-[90%] mx-auto'></Image>
-                  <Image src={star1} alt='flare' width={10} height={12} className='absolute z-[2] left-[10%] top-[45%]' ></Image>
+                  <Image src={star1} alt='flare' width={100} height={12} className='w-[10px] h-[12px] absolute z-[2] left-[10%] top-[45%]' ></Image>
                 </div>
-                <Image src={flare1} alt='flare' className='z-0 brightness-[0.8] absolute top-[-2.5rem] left-[-3rem] blur-[4px] object-cover bg-center bg-no-repeat w-full' 
-                style={{ filter: 'hue-rotate(-18.6deg)' }}></Image>
+                <Image src={flare1} alt='flare' className='z-0 brightness-[0.8] absolute top-[-5rem] left-[-3rem] blur-[4px] object-cover bg-center bg-no-repeat w-full' 
+                style={{ filter: 'hue-rotate(-14.6deg)' }}></Image>
             </div>
 
 
@@ -28,11 +28,11 @@ const Rules = () => {
             <div className='relative z-10 mt-4 md:mt-0 w-[80%] mx-auto'>
                 <div className='absolute right-[-20%] top-[-10rem]'>
                 <Image src={flare2} alt='flare' className='z-0 brightness-[0.8] blur-[4px]' 
-                style={{ filter: 'hue-rotate(-18.6deg)' }}></Image>
+                style={{ filter: 'hue-rotate(-14.6deg)' }}></Image>
                 </div>
                 <h1 className='relative text-center clash-display-bold text-2xl tracking-wide'>
                 Rules and <br /><span className='text-[#D434FE] clash-display-bold text-2xl'> Guidelines</span>
-                <Image src={star2} alt='flare' width={12} height={14} className='absolute z-[2] bottom-[-0.4rem] right-[0.4rem]' ></Image>
+                <Image src={star2} alt='flare' width={120} height={14} className='w-[12px] h-[14px] absolute z-[2] bottom-[-0.4rem] right-[0.4rem]' ></Image>
                 </h1>
 
                 <div className='relative z-10 text-sm text-center font-medium lh-26 mt-5'>
@@ -47,7 +47,7 @@ const Rules = () => {
                 change the world, that's what we're all about!
                 </div>
                 <div className='absolute bottom-[-1rem] w-full mt-4'>
-                  <Image src={star3} alt='small star' width={10} height={12} className='absolute left-[22%]'></Image>
+                  <Image src={star3} alt='small star' width={100} height={12} className='w-[10px] h-[12px] absolute left-[22%]'></Image>
                 </div>
             </div>
 

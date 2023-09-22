@@ -25,7 +25,7 @@ const Footer = () => {
             of organizations with the aim of showcasing 
             young and talented individuals in the field 
             of technology
-            <Image src={mobileStar2} alt='star' className='absolute top-[22%] left-[-1.2rem]'></Image>
+            <Image src={mobileStar2} alt='star' className='absolute top-[22%] left-[-1.2rem] object-cover'></Image>
             </p>
             <div className='flex flex-row items-center gap-2 text-sm font-medium mt-8 pr-8'>
               <p>Terms of Use</p>
@@ -37,7 +37,7 @@ const Footer = () => {
 
 
             <div className='relative flex flex-col gap-5 text-sm font-medium mt-9 pr-8'>
-            <Image src={star3} alt='star' className='absolute z-[2] bottom-[44%] left-[35%]'></Image>
+            <Image src={star3} alt='star' className='absolute z-[2] bottom-[44%] left-[35%] object-cover'></Image>
               <h3 className='text-[#D434FE] font-semibold text-[17px]'>Useful Links</h3>
               <p>Overview</p>
               <p>Timeline</p>
@@ -57,8 +57,8 @@ const Footer = () => {
 
 
             <div className='relative flex flex-col gap-5 text-sm font-medium mt-9 pr-8'>
-            <Image src={mobileStar2} alt='star' className='absolute top-[40%] right-[25%]'></Image>
-            <Image src={star2} alt='star' className='absolute bottom-[-1.5rem] left-[25%]'></Image>
+            <Image src={mobileStar2} alt='star' className='absolute top-[40%] right-[25%] object-cover'></Image>
+            <Image src={star2} alt='star' className='absolute bottom-[-1.5rem] left-[25%] object-cover'></Image>
               <h3 className='text-[#D434FE] font-semibold text-[17px]'>Contact Us</h3>
               <div className='flex flex-row items-center gap-4'>
                 <Image src={phone} alt='phone'></Image>

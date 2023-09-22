@@ -18,7 +18,7 @@ const Faq = () => {
           <div className='mt-16'>
             <h1 className='relative text-center clash-display-bold text-2xl tracking-wide'>
             Frequently Asked <br /><span className='text-[#D434FE] clash-display-bold text-2xl'> Question</span>
-            <Image src={faqStar} alt='star' className='absolute top-[-1.2rem] left-[10%]'></Image>
+            <Image src={faqStar} alt='star' width={100} className='w-[18px] h-[22px] absolute top-[-1.4rem] left-[8%]'></Image>
             </h1>
 
             <div className='w-[80%] mx-auto mt-5'>
@@ -75,18 +75,18 @@ const Faq = () => {
             <div className='absolute w-full'>
               <Image src={qm1} alt='question' className='absolute left-[16%] top-[-0.3rem] max-[350px]:top-[-0.5rem]'></Image>
               <Image src={qm2} alt='question' className='absolute top-[-1.6rem] left-[33%]'></Image>
-              <Image src={star1} alt='star Image' width={10} height={10} className='absolute top-[-0.3rem] left-[46%]'></Image>
+              <Image src={star1} alt='star Image' width={100} height={10} className='w-[10px] h-[10px] absolute top-[-0.3rem] left-[46%]'></Image>
               <Image src={qm3} alt='question' className='absolute right-[35%] top-[-0.3rem] max-[350px]:top-[-0.5rem]'></Image>
             </div>
             <div className='absolute w-full top-[30%]'>
-            <Image src={star2} alt='star Image' width={7} height={9} className='absolute left-[20%]'></Image>
+            <Image src={star2} alt='star Image' width={100} height={9} className='w-[7px] h-[9px] absolute left-[20%]'></Image>
             </div>
             <div className='absolute w-full top-[50%]'>
-            <Image src={star3} alt='star Image' width={7} height={9} className='w-auto h-auto absolute  left-[10%]'></Image>
+            <Image src={star3} alt='star Image' width={100} height={9} className='w-[10px] h-[12px] absolute  left-[10%]'></Image>
             </div>
             <Image src={faqImage} alt='FAQ'></Image>
             <div className='absolute w-full bottom-[2%]'>
-            <Image src={star4} width={16} alt='star Image' height={20} className='absolute  right-[20%]'></Image>
+            <Image src={star4} width={100} alt='star Image' height={20} className='w-[16px] h-[20px]  absolute  right-[20%]'></Image>
             </div>
           </div>
           {/* END FAQ SECTION */}

@@ -14,12 +14,12 @@ const Policy = () => {
     <div>
       <div className='relative'>
         <h1 className='relative z-10 mt-16 pt-7 text-center clash-display-bold text-2xl tracking-wide'>
-        <Image src={star1} alt='star' className='absolute top-[-0.01rem] right-[24%]'></Image>
+        <Image src={star1} alt='star' width={50} className='w-[8px] h-[8px] absolute top-[-0.01rem] right-[24%] object-cover'></Image>
         Privacy Policy and  <br /><span className='text-[#D434FE] clash-display-bold text-2xl'> Terms</span>
         </h1>
         <p className='relative z-10 text-center text-sm text-white text-opacity-75 font-medium mt-2'>Last updated on September 12, 2023</p>
         <p className='relative z-10 w-[85%] mx-auto text-center text-[13px] font-medium mt-8 lh-20'>
-        <Image src={star2} alt='star' className='absolute bottom-[-1rem]  right-[10%]'></Image>
+        <Image src={star2} alt='star' width={40} className='w-[17px] h-[20px] absolute bottom-[-1rem] object-cover right-[10%]'></Image>
           Below are our privacy & policy, which outline a 
           lot of goodies. it’s our aim to always take of our 
           participant</p>
@@ -28,7 +28,7 @@ const Policy = () => {
         {/* START FIRST COLUMN */}
         <div>
           <div className='relative z-10 w-[85%] mx-auto bg-[rgba(217,217,217,0.03)] mt-12 border border-[#D434FE] text-sm rounded-md px-4'>
-          <Image src={star3} alt='star' className='absolute z-[2] bottom-[28%] left-[-1.2rem]'></Image>
+          <Image src={star3} alt='star' className='w-[17px] h-[20px] object-cover absolute z-[2] bottom-[28%] left-[-1.2rem]'></Image>
           <Image src={flare} alt='flare' className='absolute z-0 bottom-[8%] left-[-2rem] opacity-70' style={{ filter: 'hue-rotate(-15.6deg)' }}></Image>
             <p className='relative z-10 w-[95%] mx-auto text-sm lh-26 font-medium mt-10'>
             At getlinked tech Hackathon 1.0, we 
@@ -48,7 +48,7 @@ const Policy = () => {
             <div className='flex flex-col gap-8 mt-8'>
 
               <div className='flex flex-row gap-3'>
-                <div><Image width={1000} src={listMark} alt='list' className='relative z-10 w-12 mt-1'></Image></div>
+                <div className='w-[25%] h-full'><Image width={50} src={listMark} alt='list' className='w-full object-contain p-1 relative z-10'></Image></div>
                 <div>
                   <p className='relative z-10  text-sm font-medium'>
                   The Standard License grants you a 
@@ -59,7 +59,7 @@ const Policy = () => {
               </div>
 
               <div className='flex flex-row gap-3'>
-                <div><Image width={1000} src={listMark} alt='list' className='relative z-10 w-12 mt-1'></Image></div>
+                <div className='w-[25%] h-full'><Image width={50} src={listMark} alt='list' className='w-full object-contain p-1 relative z-10'></Image></div>
                 <div>
                   <p className='relative z-10 text-sm font-medium'>
                   You are licensed to use the item 
@@ -82,12 +82,12 @@ const Policy = () => {
         <div className=' mt-10'>
           <div className='relative policy-image-bg'>
             <div className='absolute top-[7rem] w-full'>
-            <Image src={star4} alt='star' className='absolute z-[2] bottom-[28%] left-[-1.2rem]'></Image>
-            <Image src={Star5} alt='star' className='absolute z-[2] top-0 right-[3rem]'></Image>
+            <Image src={star4} alt='star' className='absolute object-cover z-[2] bottom-[28%] left-[-1.2rem]'></Image>
+            <Image src={Star5} alt='star' className='absolute object-cover z-[2] top-0 right-[3rem]'></Image>
             </div>
             <div className='absolute bottom-[-2rem] w-full'>
-            <Image src={Star5} alt='star' className='absolute z-[2] top-0 left-[1.5rem]'></Image>
-            <Image src={star1} alt='star' className='absolute z-[2] top-0 right-[1rem]'></Image>
+            <Image src={Star5} alt='star' className='absolute object-cover z-[2] top-0 left-[1.5rem]'></Image>
+            <Image src={star1} alt='star' className='absolute object-cover z-[2] top-0 right-[1rem]'></Image>
             </div>
               <Image src={policyImage} alt='policy' className='mx-auto object-cover bg-center bg-no-repeat relative right-4 top-28 mb-20'>
               </Image>

@@ -31,7 +31,7 @@ const Header = () => {
        className='md:hidden fixed z-40 bg-[#150E28] nav-blur rounded-lg w-full h-screen'>
         <div className='flex justify-end items-center max-[280px]:px-8 px-12 pt-9'>
           <div onClick={closeNav} className='relative cursor-pointer w-[25px] h-[25px]'>
-            <Image src={closeIconBorder} alt='close' className='w-full h-full'></Image>
+            <Image src={closeIconBorder} alt='close' className='w-full h-full object-cover bg-center bg-no-repeat'></Image>
             <MdClose className='w-full absolute top-[0.1rem] text-white font-black' size={20}/>
           </div>
         </div>
