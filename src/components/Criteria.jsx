@@ -18,7 +18,7 @@ const Criteria = () => {
           </div>
 
           <div className='z-10 relative mt-12'>
-            <Image src={criteriaImage} width={900} height={600} alt='criteria' className='z-10 relative object-cover bg-center bg-no-repeat w-full'></Image>
+            <Image src={criteriaImage} width={900} height={600} alt='criteria' className='z-10 relative object-cover bg-center bg-no-repeat w-[90%] mx-auto'></Image>
             <Image src={flare} alt='flare' className='absolute z-0 top-[1rem] opacity-80' style={{ filter: 'hue-rotate(-19.6deg)' }}></Image>
             <Image src={star2} width={12} height={14} alt='flare' className='absolute z-0 bottom-[40%] left-[53%]'></Image>
           </div>
@@ -70,7 +70,7 @@ const Criteria = () => {
           <Image src={star3} width={10} height={12} alt='star' className='absolute z-2 right-[8%] mt-7'></Image>
         
           <div className='flex justify-center items-center mt-6'>
-            <button className='relative register-button text-xs max-[320px]:px-5 max-[320px]:py-2 px-5 py-2 hover:opacity-90'>
+            <button className='relative register-button text-xs max-[320px]:px-5 max-[320px]:py-2 px-5 py-2 hover:opacity-80'>
               <p className='text-sm font-normal'>Read More</p>
             </button>
           </div>

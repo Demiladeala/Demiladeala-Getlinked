@@ -56,7 +56,7 @@ const Hero = () => {
                      </div>
 
                      <div className='flex justify-center items-center mt-6'>
-                        <button className='relative register-button max-[320px]:px-9 max-[320px]:py-3 px-12 py-[0.9rem] hover:opacity-90'><p className='text-base'>Register</p>
+                        <button className='relative register-button max-[320px]:px-9 max-[320px]:py-3 px-12 py-[0.9rem] hover:opacity-80'><p className='text-base'>Register</p>
                         <Image src={star3} alt='star' width={6} height={8} className='absolute top-[50%] right-[-1.7rem] max-[320px]:right-[1.2rem] object-cover bg-no-repeat bg-center'></Image>
                         </button>
                      </div>

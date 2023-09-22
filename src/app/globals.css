@@ -39,6 +39,9 @@
 .lh-26{
   line-height: 26.6px;
 }
+.lh-20{
+  line-height: 20px;
+}
 .register-button{
   border-radius: 4px;
   background: linear-gradient(270deg, #903AFF 0%, #D434FE 56.42%, #FF26B9 99.99%, #FE34B9 100%);
@@ -48,4 +51,13 @@
 }
 .hero-flare{
   background-blend-mode: hard-light;
+}
+.policy-image-bg{
+  background-image: url('/policy-image-bg.png');
+  width: 70%;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  object-fit: cover;
+  background-position: center;
 }

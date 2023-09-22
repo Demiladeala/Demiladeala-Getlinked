@@ -16,7 +16,6 @@ const Introduction = () => {
                     <Image alt='bulb' src={ideaImage} className='mx-auto'></Image>
                   </div>
                   <Image alt='star' src={introductionStar1} width={11} height={13} className='absolute left-[10%] bottom-[59%]'></Image>
-                  <p className='absolute bottom-[35%] font-semibold text-sm text-center w-full flex justify-center items-center'>The Big <br />Idea!</p>
                   <Image alt='arrow' src={introductionArrow} width={19.456} height={22.818} className='absolute bottom-[-2rem] left-[46%]'></Image>
                 </div>
 
