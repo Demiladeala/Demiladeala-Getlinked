@@ -29,7 +29,7 @@ const Policy = () => {
         <div>
           <div className='relative z-10 w-[85%] mx-auto bg-[rgba(217,217,217,0.03)] mt-12 border border-[#D434FE] text-sm rounded-md px-4'>
           <Image src={star3} alt='star' className='w-[17px] h-[20px] object-cover absolute z-[2] bottom-[28%] left-[-1.2rem]'></Image>
-          <Image src={flare} alt='flare' className='absolute z-0 bottom-[8%] left-[-2rem] opacity-70' style={{ filter: 'hue-rotate(-15.6deg)' }}></Image>
+          <Image src={flare} alt='flare' className='absolute z-0 bottom-[8%] left-[-2rem] opacity-70' style={{ filter: 'hue-rotate(-14.6deg)' }}></Image>
             <p className='relative z-10 w-[95%] mx-auto text-sm lh-26 font-medium mt-10'>
             At getlinked tech Hackathon 1.0, we 
             value your privacy and are committed 

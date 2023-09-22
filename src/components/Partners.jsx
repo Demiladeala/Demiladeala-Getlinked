@@ -16,7 +16,7 @@ const Partners = () => {
     <div>
       <div>
         <div className='relative font-medium text-center mt-10'>
-        <Image src={flare} alt='flare' className='absolute z-0 top-[-7rem] left-[-2rem] opacity-90' style={{ filter: 'hue-rotate(-15.6deg)' }}></Image>
+        <Image src={flare} alt='flare' className='absolute z-0 top-[-7rem] left-[-2rem] opacity-90' style={{ filter: 'hue-rotate(-14.6deg)' }}></Image>
           <h1 className='relative z-10 clash-display-bold text-2xl lh-26 w-[95%] mx-auto tracking-wider'>Partners and Sponsors</h1>
           <div className='relative z-10 w-[85%] font-medium mx-auto text-sm max-[300px]:text-xs mt-3'>
           Getlinked Hackathon 1.0 is honored to have the
@@ -26,7 +26,7 @@ const Partners = () => {
         </div>
 
         <div className='relative z-10 border border-[#D434FE] mt-16 py-7 px-9 rounded-md w-[85%] mx-auto grid grid-cols-3 grid-rows-2 gap-3 '>
-              <Image src={flare2} alt='flare' className='absolute z-0 top-[5.5rem] right-[-20%] opacity-70 blur-[5px]' style={{ filter: 'hue-rotate(-15.6deg)' }}></Image>
+              <Image src={flare2} alt='flare' className='absolute z-0 top-[5.5rem] right-[-20%] opacity-70 blur-[5px]' style={{ filter: 'hue-rotate(-14.6deg)' }}></Image>
               <Image src={star1} alt='star' className='absolute left-[5%] object-cover'></Image>
               <Image src={mobileStar2} alt='star' className='absolute bottom-[0.2rem] right-[12%] object-cover'></Image>
               <div className='relative z-10 w-[100%] h-[45px] flex justify-center items-center'>

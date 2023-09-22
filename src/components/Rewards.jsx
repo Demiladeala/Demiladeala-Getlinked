@@ -28,13 +28,13 @@ const Rewards = () => {
         <div className='flex flex-col md:flex-row'>
           {/* IMAGE ONE */}
           <div className='relative z-10'>
-          <Image src={flare} alt='flare' className='absolute z-0 top-[-7rem] left-[-2rem] opacity-90' style={{ filter: 'hue-rotate(-15.6deg)' }}></Image>
+          <Image src={flare} alt='flare' className='absolute z-0 top-[-7rem] left-[-2rem] opacity-90' style={{ filter: 'hue-rotate(-14.6deg)' }}></Image>
           <Image src={imageOne} alt='reward one' className='relative z-10 w-[85%] mx-auto mt-16'></Image>
           <Image src={mobileStar2} alt='star' className='absolute bottom-[-1rem] left-[15%] object-cover'></Image>
           </div>
           {/* IMAGE TWO */}
           <div className='relative z-10'>
-          <Image src={flare2} alt='flare' className='absolute z-0 top-[-4rem] right-[-20%] opacity-90 blur-[5px]' style={{ filter: 'hue-rotate(-15.6deg)' }}></Image>
+          <Image src={flare2} alt='flare' className='absolute z-0 top-[-4rem] right-[-20%] opacity-90 blur-[5px]' style={{ filter: 'hue-rotate(-14.6deg)' }}></Image>
             <Image src={imageTwo} alt='reward one' className='relative z-10 w-[85%] mx-auto mt-20'></Image>
             <Image src={mobileStar2} alt='star' className='absolute top-[30%] right-[10%] object-cover'></Image>
             <Image src={mobileStar3} alt='star' className='absolute bottom-[-3rem] right-[33%] object-cover'></Image>
