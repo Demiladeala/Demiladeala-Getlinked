@@ -10,7 +10,7 @@ import flare2 from '../../public/criteria-flare2.png'
 
 const Rewards = () => {
   return (
-    <div className='mt-20 pb-20 bg-[#120C23]'>
+    <div className='pb-20 bg-[#120C23]'>
       <div className='reward-bg-mobile'>
         <div>
             <h1 className='z-10 pt-7 relative text-center clash-display-bold text-2xl tracking-wide'>
@@ -25,16 +25,16 @@ const Rewards = () => {
               </div>
         </div>
 
-        <div className='flex flex-col md:flex-row'>
+        <div className='flex flex-col md:flex-row md:items-center md:w-[90%] md:mx-auto md:gap-1'>
           {/* IMAGE ONE */}
-          <div className='relative z-10'>
-          <Image src={flare} alt='flare' className='absolute z-0 top-[-7rem] left-[-2rem] opacity-90' style={{ filter: 'hue-rotate(-14.6deg)' }}></Image>
+          <div className='basis-[50%] relative z-10'>
+          <Image src={flare} alt='flare' className='md:hidden absolute z-0 top-[-7rem] left-[-2rem] opacity-90' style={{ filter: 'hue-rotate(-14.6deg)' }}></Image>
           <Image src={imageOne} alt='reward one' className='relative z-10 w-[85%] mx-auto mt-16'></Image>
           <Image src={mobileStar2} alt='star' className='absolute bottom-[-1rem] left-[15%] object-cover'></Image>
           </div>
           {/* IMAGE TWO */}
-          <div className='relative z-10'>
-          <Image src={flare2} alt='flare' className='absolute z-0 top-[-4rem] right-[-20%] opacity-90 blur-[5px]' style={{ filter: 'hue-rotate(-14.6deg)' }}></Image>
+          <div className='basis-[50%] relative z-10'>
+          <Image src={flare2} alt='flare' className='md:hidden absolute z-0 top-[-4rem] right-[-20%] opacity-90 blur-[5px]' style={{ filter: 'hue-rotate(-14.6deg)' }}></Image>
             <Image src={imageTwo} alt='reward one' className='relative z-10 w-[85%] mx-auto mt-20'></Image>
             <Image src={mobileStar2} alt='star' className='absolute top-[30%] right-[10%] object-cover'></Image>
             <Image src={mobileStar3} alt='star' className='absolute bottom-[-3rem] right-[33%] object-cover'></Image>

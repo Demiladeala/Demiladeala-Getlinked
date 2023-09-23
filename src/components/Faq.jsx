@@ -13,9 +13,9 @@ import qm3 from '../../public/faq-image-qm3.png'
 const Faq = () => {
   return (
     <div>
-      <div className='flex flex-col md:flex-row'>
+      <div className='flex flex-col md:flex-row md:items-center md:w-[90%] md:mx-auto'>
           {/* FAQ MESSAGE SECTION */}
-          <div className='mt-16'>
+          <div className='md:basis-[50%] md:mt-0 mt-16'>
             <h1 className='relative text-center clash-display-bold text-2xl tracking-wide'>
             Frequently Asked <br /><span className='text-[#D434FE] clash-display-bold text-2xl'> Question</span>
             <Image src={faqStar} alt='star' width={100} className='w-[18px] h-[22px] absolute top-[-1.4rem] left-[8%]'></Image>
@@ -71,7 +71,7 @@ const Faq = () => {
             </div>
           </div>
           {/* FAQ IMAGE SECTION */}
-          <div className='relative mt-20 w-[90%] mx-auto'>
+          <div className='md:basis-[50%] relative mt-20 w-[90%] mx-auto'>
             <div className='absolute w-full'>
               <Image src={qm1} alt='question' className='absolute left-[16%] top-[-0.3rem] max-[350px]:top-[-0.5rem]'></Image>
               <Image src={qm2} alt='question' className='absolute top-[-1.6rem] left-[33%]'></Image>

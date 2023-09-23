@@ -14,10 +14,10 @@ import star2 from '../../public/faq-image-star2.png'
 
 const Footer = () => {
   return (
-    <div className='bg-[#100B20] mt-28'>
-        <div className='flex flex-col md:flex-row pl-12 pt-16 pb-12'>
+    <div className='bg-[#100B20] mt-28 md:px-16'>
+        <div className='flex flex-col md:flex-row md:items-center md:gap-28 pl-12 pt-16 pb-12'>
 
-            <div>
+            <div className='md:basis-[33%] md:h-[25rem] lg:h-[15rem]'>
             <Image src={mobileLogo} alt='mobile-logo' className='w-28'></Image>
             <p className='relative text-sm font-medium lh-20 mt-4 pr-8'>
             Getlinked Tech Hackathon is a technology
@@ -36,7 +36,7 @@ const Footer = () => {
             </div>
 
 
-            <div className='relative flex flex-col gap-5 text-sm font-medium mt-9 pr-8'>
+            <div className='md:basis-[33%] md:h-[25rem] lg:h-[15rem] relative flex flex-col gap-5 text-sm font-medium mt-9 md:mt-0 pr-8'>
             <Image src={star3} alt='star' className='absolute z-[2] bottom-[44%] left-[35%] object-cover'></Image>
               <h3 className='text-[#D434FE] font-semibold text-[17px]'>Useful Links</h3>
               <p>Overview</p>
@@ -56,7 +56,7 @@ const Footer = () => {
 
 
 
-            <div className='relative flex flex-col gap-5 text-sm font-medium mt-9 pr-8'>
+            <div className='md:basis-[33%] md:h-[25rem] lg:h-[15rem] relative flex flex-col gap-5 text-sm font-medium mt-9 md:mt-0 pr-8'>
             <Image src={mobileStar2} alt='star' className='absolute top-[40%] right-[25%] object-cover'></Image>
             <Image src={star2} alt='star' className='absolute bottom-[-1.5rem] left-[25%] object-cover'></Image>
               <h3 className='text-[#D434FE] font-semibold text-[17px]'>Contact Us</h3>
@@ -75,11 +75,10 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className='text-center pr-12 mt-12'>
-              <p className='font-medium text-xs w-[95%] mx-auto'>All rights reserved. © getlinked Ltd.</p>
-            </div>
-
         </div>
+          <div className='text-center pr-12 pb-12 mt-4'>
+            <p className='font-medium text-xs w-[95%] mx-auto'>All rights reserved. © getlinked Ltd.</p>
+          </div>
     </div>
   )
 }

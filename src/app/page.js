@@ -42,37 +42,37 @@ export default function Home() {
 
   return (
     <div className="bg-custom-bg text-white overflow-x-hidden">
-      <section>
+      <section id="header">
         <Header />
       </section>
-      <section>
+      <section id="hero">
         <Hero />
       </section>
-      <section>
+      <section id="introduction">
        <Introduction />
       </section>
-      <section>
+      <section id="rules">
         <Rules />
       </section>
-      <section>
+      <section id="criteria">
         <Criteria />
       </section>
-      <section>
+      <section id="faq">
         <Faq />
       </section>
-      <section>
+      <section id="timeline">
         <Timeline />
       </section>
-      <section>
+      <section id="rewards">
         <Rewards />
       </section>
-      <section>
+      <section id="partners">
         <Partners />
       </section>
-      <section>
+      <section id="policy">
         <Policy />
       </section>
-      <section>
+      <section id="footer">
        <Footer />
       </section>
 

@@ -10,13 +10,13 @@ import star3 from '../../public/rule-star3.png'
 const Rules = () => {
   return (
     <div className=''>
-        <div className='relative flex flex-col md:flex-row-reverse'>
-            <div className='relative mx-auto'>
+        <div className='relative flex flex-col md:flex-row-reverse md:items-center md:w-[90%] md:mx-auto md:gap-4'>
+            <div className='md:basis-[50%] relative mx-auto'>
                 <div className='relative'>
                   <Image src={rulesImage} width={2800} height={2800} alt='image' className='z-10 relative object-contain bg-center bg-no-repeat w-[90%] mx-auto'></Image>
                   <Image src={star1} alt='flare' width={100} height={12} className='w-[10px] h-[12px] absolute z-[2] left-[10%] top-[45%]' ></Image>
                 </div>
-                <Image src={flare1} alt='flare' className='z-0 brightness-[0.8] absolute top-[-5rem] left-[-3rem] blur-[4px] object-cover bg-center bg-no-repeat w-full' 
+                <Image src={flare1} alt='flare' className='md:hidden z-0 brightness-[0.8] absolute top-[-5rem] left-[-3rem] blur-[4px] object-cover bg-center bg-no-repeat w-full' 
                 style={{ filter: 'hue-rotate(-14.6deg)' }}></Image>
             </div>
 
@@ -25,9 +25,9 @@ const Rules = () => {
 
 
             {/* MESSAGE SECTION */}
-            <div className='relative z-10 mt-4 md:mt-0 w-[80%] mx-auto'>
+            <div className='md:basis-[50%] relative z-10 mt-4 md:mt-0 w-[80%] mx-auto'>
                 <div className='absolute right-[-20%] top-[-10rem]'>
-                <Image src={flare2} alt='flare' className='z-0 brightness-[0.8] blur-[4px]' 
+                <Image src={flare2} alt='flare' className='md:hidden z-0 brightness-[0.8] blur-[4px]' 
                 style={{ filter: 'hue-rotate(-14.6deg)' }}></Image>
                 </div>
                 <h1 className='relative text-center clash-display-bold text-2xl tracking-wide'>
@@ -51,8 +51,8 @@ const Rules = () => {
                 </div>
             </div>
 
-            <div className='h-[0.1px] w-full bg-[rgba(255,255,255,0.18)] mt-12'></div>
         </div>
+        <div className='h-[0.1px] w-full bg-[rgba(255,255,255,0.18)] mt-12'></div>
     </div>
   )
 }

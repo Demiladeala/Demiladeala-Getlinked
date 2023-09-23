@@ -7,11 +7,11 @@ import introductionStar2 from '../../public/introduction-star2.png'
 
 const Introduction = () => {
   return (
-    <div className='mt-9'>
-        <div className='flex flex-col md:flex-row'>
+    <div className='mt-9 md:mt-14'>
+        <div className='flex flex-col md:flex-row md:items-center md:w-[90%] md:mx-auto'>
             <div className='flex flex-col justify-center items-center'>
                 
-                <div className='relative w-full'>
+                <div className='relative w-full md:basis-[50%]'>
                   <div className='w-[80%] mx-auto'>
                     <Image alt='bulb' src={ideaImage} className='mx-auto'></Image>
                   </div>
@@ -19,14 +19,19 @@ const Introduction = () => {
                   <Image alt='arrow' src={introductionArrow} width={100} height={22.818} className='w-[23px] h-[23px] absolute bottom-[-2rem] left-[47.5%]'></Image>
                 </div>
 
-                <div className='relative mt-16 w-[85%] mx-auto text-center'>
+                <div className='relative mt-16 w-[85%] mx-auto text-center md:hidden'>
                     <div className='clash-display-bold lh-26 text-xl max-[321px]:text-[17px] font-semibold tracking-wide'>Introduction to getlinked</div>
                     <div className='text-[#D434FE] clash-display-bold lh-26 text-xl max-[321px]:text-[17px] font-semibold tracking-wide'>tech Hackathon 1.0</div>
                     <Image alt='star' width={100} height={10} src={introductionStar2} className='w-[8px] h-[10px] absolute right-[-0.25rem] top-[50%]'></Image>
                 </div>
             </div>
 
-            <div className='relative z-10 w-[80%] mx-auto text-sm text-center font-medium lh-26 mt-5'>
+            <div className='md:basis-[50%] relative z-10 w-[80%] mx-auto text-sm text-center font-medium lh-26 mt-5'>
+              <div className='relative mt-16 md:mt-0 w-[85%] mx-auto text-center hidden md:block mb-6'>
+                <div className='clash-display-bold lh-26 text-xl max-[321px]:text-[17px] font-semibold tracking-wide'>Introduction to getlinked</div>
+                  <div className='text-[#D434FE] clash-display-bold lh-26 text-xl max-[321px]:text-[17px] font-semibold tracking-wide'>tech Hackathon 1.0</div>
+                  <Image alt='star' width={100} height={10} src={introductionStar2} className='w-[8px] h-[10px] absolute right-[-0.25rem] top-[50%]'></Image>
+                </div>
               Our tech hackathon is a melting pot of 
               visionaries, and its purpose is as clear as day:
               to shape the future. Whether you're a coding
@@ -37,8 +42,8 @@ const Introduction = () => {
               technology, and creating solutions that can 
               change the world, that's what we're all about!
             </div>
-            <div className='h-[0.1px] w-full bg-[rgba(255,255,255,0.18)] mt-10'></div>
         </div>
+        <div className='h-[0.1px] w-full bg-[rgba(255,255,255,0.18)] mt-12'></div>
     </div>
   )
 }

@@ -12,7 +12,7 @@ import flare from '../../public/partner-flare1.png'
 const Policy = () => {
   return (
     <div>
-      <div className='relative'>
+      <div className='relative md:hidden'>
         <h1 className='relative z-10 mt-16 pt-7 text-center clash-display-bold text-2xl tracking-wide'>
         <Image src={star1} alt='star' width={50} className='w-[8px] h-[8px] absolute top-[-0.01rem] right-[24%] object-cover'></Image>
         Privacy Policy and  <br /><span className='text-[#D434FE] clash-display-bold text-2xl'> Terms</span>
@@ -21,15 +21,29 @@ const Policy = () => {
         <p className='relative z-10 w-[85%] mx-auto text-center text-[13px] font-medium mt-8 lh-20'>
         <Image src={star2} alt='star' width={40} className='w-[17px] h-[20px] absolute bottom-[-1rem] object-cover right-[10%]'></Image>
           Below are our privacy & policy, which outline a 
-          lot of goodies. it’s our aim to always take of our 
+          lot of goodies. <br className='hidden md:block'/> it’s our aim to always take of our 
           participant</p>
       </div>
-      <div className='flex flex-col md:flex-row'>
+      <div className='flex flex-col md:flex-row md:items-center md:w-[90%] md:mx-auto md:mt-4 md:gap-16'>
         {/* START FIRST COLUMN */}
-        <div>
+        <div className='md:basis-[50%]'>
+          {/*  */}
+            <div className='relative hidden md:block'>
+              <h1 className='relative z-10 mt-16 pt-7 w-[85%] mx-auto text-left clash-display-bold text-2xl tracking-wide'>
+              <Image src={star1} alt='star' width={50} className='w-[8px] h-[8px] absolute top-[-0.01rem] right-[24%] object-cover'></Image>
+              Privacy Policy and  <br /><span className='text-[#D434FE] clash-display-bold text-2xl'> Terms</span>
+              </h1>
+              <p className='relative z-10 w-[85%] mx-auto text-left text-sm text-white text-opacity-75 font-medium mt-2'>Last updated on September 12, 2023</p>
+              <p className='relative z-10 w-[85%] mx-auto text-left text-[13px] font-medium mt-8 lh-20'>
+              <Image src={star2} alt='star' width={40} className='w-[17px] h-[20px] absolute bottom-[-1rem] object-cover right-[10%]'></Image>
+                Below are our privacy & policy, which outline a 
+                lot of goodies. <br className='hidden md:block'/> it’s our aim to always take of our 
+                participant</p>
+            </div>
+          {/*  */}
           <div className='relative z-10 w-[85%] mx-auto bg-[rgba(217,217,217,0.03)] mt-12 border border-[#D434FE] text-sm rounded-md px-4'>
           <Image src={star3} alt='star' className='w-[17px] h-[20px] object-cover absolute z-[2] bottom-[28%] left-[-1.2rem]'></Image>
-          <Image src={flare} alt='flare' className='absolute z-0 bottom-[8%] left-[-2rem] opacity-70' style={{ filter: 'hue-rotate(-14.6deg)' }}></Image>
+          <Image src={flare} alt='flare' className='md:hidden  absolute z-0 bottom-[8%] left-[-2rem] opacity-70' style={{ filter: 'hue-rotate(-14.6deg)' }}></Image>
             <p className='relative z-10 w-[95%] mx-auto text-sm lh-26 font-medium mt-10'>
             At getlinked tech Hackathon 1.0, we 
             value your privacy and are committed 
@@ -48,7 +62,7 @@ const Policy = () => {
             <div className='flex flex-col gap-8 mt-8'>
 
               <div className='flex flex-row gap-3'>
-                <div className='w-[25%] h-full'><Image src={listMark} alt='list' className='w-full h-full object-cover p-1 relative z-10'></Image></div>
+                <div className='w-[25%] md:w-[10%] h-full'><Image src={listMark} alt='list' className='md:w-24 w-full h-full object-cover p-1 relative z-10'></Image></div>
                 <div>
                   <p className='relative z-10  text-sm font-medium'>
                   The Standard License grants you a 
@@ -59,7 +73,7 @@ const Policy = () => {
               </div>
 
               <div className='flex flex-row gap-3'>
-                <div className='w-[25%] h-full'><Image src={listMark} alt='list' className='w-full h-full object-cover p-1 relative z-10'></Image></div>
+                <div className='w-[25%] md:w-[10%] h-full'><Image src={listMark} alt='list' className='md:w-24 w-full h-full object-cover p-1 relative z-10'></Image></div>
                 <div>
                   <p className='relative z-10 text-sm font-medium'>
                   You are licensed to use the item 
@@ -79,7 +93,7 @@ const Policy = () => {
           </div>
         </div>
         {/* START SECOND COLUMN */}
-        <div className=' mt-10'>
+        <div className='md:basis-[50%] mt-10'>
           <div className='relative policy-image-bg'>
             <div className='absolute top-[7rem] w-full'>
             <Image src={star4} alt='star' className='absolute object-cover z-[2] bottom-[28%] left-[-1.2rem]'></Image>
