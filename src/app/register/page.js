@@ -8,8 +8,10 @@ import registerMove from '../../../public/register-move.svg'
 import registerMoveImage from '../../../public/register-move-mobile.svg'
 import mobileLogo from '../../../public/logo-mobile.svg'
 import RegisterModal from "@/components/RegisterModal";
+import { useModal } from "@/context/ModalContext";
 
 const Register = () => {
+  const { openModal } = useModal();
   const [teamName, setTeamName] = useState('');
   const [phone, setPhone] = useState('');
   const [email, setEmail] = useState('');
@@ -115,7 +117,8 @@ const Register = () => {
         })
         .then((response) => {
           // Response handling
-          console.log("Registration successful:", response.data);
+          console.log("Registration successful:");
+          openModal()
           setIsLoading(false);
           setTeamName('');
           setPhone('');
