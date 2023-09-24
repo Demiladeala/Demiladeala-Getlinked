@@ -21,7 +21,7 @@ const Contact = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
   const [apiSuccess, setApiSuccess] = useState(false);
-  const isDesktop = window.innerWidth >= 768;
+  const isDesktop = typeof window !== 'undefined' && window.innerWidth >= 768;
 
   const handleFirstNameChange = (e) => {
     setFirstName(e.target.value);
