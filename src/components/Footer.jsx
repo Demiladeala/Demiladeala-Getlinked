@@ -76,7 +76,7 @@ const Footer = () => {
             </div>
 
         </div>
-          <div className='text-center pr-12 pb-12 mt-4'>
+          <div className='text-center pb-12 mt-4'>
             <p className='font-medium text-xs w-[95%] mx-auto text-center'>All rights reserved. © ALA OLUWADEMILADE JOSHUA.</p>
           </div>
     </div>
